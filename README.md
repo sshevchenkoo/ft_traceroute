@@ -40,5 +40,3 @@ Linux only (uses Linux `<netinet/ip_icmp.h>` constants).
 ./dev.sh bash -c 'make && bash tests/compare.sh'             # edge cases vs real traceroute
 PRIVILEGED=1 ./dev.sh bash -c 'make && bash tests/netns.sh'  # multi-hop test on a namespace router chain
 ```
-
-Full notes (in Russian): [KONSPEKT.md](KONSPEKT.md).
